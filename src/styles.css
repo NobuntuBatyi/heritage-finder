@@ -2,6 +2,14 @@
 @source "../src";
 @import "tw-animate-css";
 
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Newsreader", Georgia, serif;
+  --color-brand-primary: #164e63;
+  --color-brand-accent: #0f766e;
+}
+
+
 @custom-variant dark (&:is(.dark *));
 
 /*
